@@ -8,6 +8,13 @@ namespace AirlineSeats
             string seatNumber;
             SeatPosition seatPosition;
             bool isAvailable;
+
+            public Seat(string seatNumber, SeatPosition seatPosition, bool isAvailable){
+                seatNumber = seatNumber;
+                seatPosition = seatPosition;
+                isAvailable = isAvailable;
+            }
+            
         }
 
         enum SeatPosition {
@@ -16,6 +23,12 @@ namespace AirlineSeats
             Middle,
         }
         
+        class Plane {
+            string TailNumber;
+            string FlightNumber;
+            Seat Seats;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
