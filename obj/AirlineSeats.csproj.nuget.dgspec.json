@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lntinfotech\\AirlineSeats\\AirlineSeats.csproj": {}
+    "C:\\Users\\Lntinfotech\\galvanize\\AirlineSeats\\AirlineSeats.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lntinfotech\\AirlineSeats\\AirlineSeats.csproj": {
+    "C:\\Users\\Lntinfotech\\galvanize\\AirlineSeats\\AirlineSeats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lntinfotech\\AirlineSeats\\AirlineSeats.csproj",
+        "projectUniqueName": "C:\\Users\\Lntinfotech\\galvanize\\AirlineSeats\\AirlineSeats.csproj",
         "projectName": "AirlineSeats",
-        "projectPath": "C:\\Users\\Lntinfotech\\AirlineSeats\\AirlineSeats.csproj",
+        "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\AirlineSeats\\AirlineSeats.csproj",
         "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lntinfotech\\AirlineSeats\\obj\\",
+        "outputPath": "C:\\Users\\Lntinfotech\\galvanize\\AirlineSeats\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -35,12 +36,23 @@
       },
       "frameworks": {
         "net5.0": {
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win7-x86": {
-          "#import": []
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

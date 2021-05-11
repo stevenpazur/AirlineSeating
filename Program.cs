@@ -8,12 +8,16 @@ namespace AirlineSeats
         public struct Seat{
             string seatNumber;
             SeatPosition seatPosition;
-            bool isAvailable;
+            public bool isAvailable {get;}
 
             public Seat(string seatNumber, SeatPosition seatPosition, bool isAvailable){
                 this.seatNumber = seatNumber;
                 this.seatPosition = seatPosition;
                 this.isAvailable = isAvailable;
+            }
+
+            public string getSeat() {
+                return this.seatNumber + " - " + this.seatPosition.ToString();
             }
             
         }
@@ -28,7 +32,7 @@ namespace AirlineSeats
             string TailNumber;
             string FlightNumber;
             
-            List<Seat> Seats;
+            List<Seat> Seats = new List<Seat>();
 
             public Plane(string tailNum, string flightNum){
                 this.TailNumber = tailNum;
@@ -51,11 +55,22 @@ namespace AirlineSeats
                 }
             }
 
+            public void printAvailable() {
+                foreach (var seat in Seats) {
+                    if (seat.isAvailable) {
+                        Console.WriteLine(seat.getSeat());
+                    }  
+                }
+
+            }
+
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var plane = new Plane("1", "2");
+
+            plane.printAvailable();
         }
     }
 }
