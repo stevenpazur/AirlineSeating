@@ -4,6 +4,12 @@ namespace AirlineSeats
 {
     class Program
     {
+        public struct Seat{
+            string seatNumber;
+            SeatPosition seatPosition;
+            bool isAvailable;
+        }
+
         enum SeatPosition {
             Aisle,
             Window,
