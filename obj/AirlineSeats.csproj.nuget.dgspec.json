@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lntinfotech\\galvanize\\AirlineSeats\\AirlineSeats.csproj": {}
+    "C:\\Users\\Lntinfotech\\Documents\\DotNet\\AirlineSeats\\AirlineSeats.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lntinfotech\\galvanize\\AirlineSeats\\AirlineSeats.csproj": {
+    "C:\\Users\\Lntinfotech\\Documents\\DotNet\\AirlineSeats\\AirlineSeats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lntinfotech\\galvanize\\AirlineSeats\\AirlineSeats.csproj",
+        "projectUniqueName": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\AirlineSeats\\AirlineSeats.csproj",
         "projectName": "AirlineSeats",
-        "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\AirlineSeats\\AirlineSeats.csproj",
+        "projectPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\AirlineSeats\\AirlineSeats.csproj",
         "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lntinfotech\\galvanize\\AirlineSeats\\obj\\",
+        "outputPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\AirlineSeats\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"
