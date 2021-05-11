@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Lntinfotech\Documents\DotNet\AirlineSeats\bin\Debug\net5.0\AirlineSeats.exe
 C:\Users\Lntinfotech\Documents\DotNet\AirlineSeats\bin\Debug\net5.0\AirlineSeats.deps.json
 C:\Users\Lntinfotech\Documents\DotNet\AirlineSeats\bin\Debug\net5.0\AirlineSeats.runtimeconfig.json
@@ -14,3 +15,21 @@ C:\Users\Lntinfotech\Documents\DotNet\AirlineSeats\obj\Debug\net5.0\AirlineSeats
 C:\Users\Lntinfotech\Documents\DotNet\AirlineSeats\obj\Debug\net5.0\ref\AirlineSeats.dll
 C:\Users\Lntinfotech\Documents\DotNet\AirlineSeats\obj\Debug\net5.0\AirlineSeats.pdb
 C:\Users\Lntinfotech\Documents\DotNet\AirlineSeats\obj\Debug\net5.0\AirlineSeats.genruntimeconfig.cache
+=======
+C:\Users\Lntinfotech\galvanize\AirlineSeats\obj\Debug\net5.0\AirlineSeats.csprojAssemblyReference.cache
+C:\Users\Lntinfotech\galvanize\AirlineSeats\obj\Debug\net5.0\AirlineSeats.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lntinfotech\galvanize\AirlineSeats\obj\Debug\net5.0\AirlineSeats.AssemblyInfoInputs.cache
+C:\Users\Lntinfotech\galvanize\AirlineSeats\obj\Debug\net5.0\AirlineSeats.AssemblyInfo.cs
+C:\Users\Lntinfotech\galvanize\AirlineSeats\obj\Debug\net5.0\AirlineSeats.csproj.CoreCompileInputs.cache
+C:\Users\Lntinfotech\galvanize\AirlineSeats\bin\Debug\net5.0\AirlineSeats.exe
+C:\Users\Lntinfotech\galvanize\AirlineSeats\bin\Debug\net5.0\AirlineSeats.deps.json
+C:\Users\Lntinfotech\galvanize\AirlineSeats\bin\Debug\net5.0\AirlineSeats.runtimeconfig.json
+C:\Users\Lntinfotech\galvanize\AirlineSeats\bin\Debug\net5.0\AirlineSeats.runtimeconfig.dev.json
+C:\Users\Lntinfotech\galvanize\AirlineSeats\bin\Debug\net5.0\AirlineSeats.dll
+C:\Users\Lntinfotech\galvanize\AirlineSeats\bin\Debug\net5.0\ref\AirlineSeats.dll
+C:\Users\Lntinfotech\galvanize\AirlineSeats\bin\Debug\net5.0\AirlineSeats.pdb
+C:\Users\Lntinfotech\galvanize\AirlineSeats\obj\Debug\net5.0\AirlineSeats.dll
+C:\Users\Lntinfotech\galvanize\AirlineSeats\obj\Debug\net5.0\ref\AirlineSeats.dll
+C:\Users\Lntinfotech\galvanize\AirlineSeats\obj\Debug\net5.0\AirlineSeats.pdb
+C:\Users\Lntinfotech\galvanize\AirlineSeats\obj\Debug\net5.0\AirlineSeats.genruntimeconfig.cache
+>>>>>>> 166e18f7579c62df31be4406b35eec70afd1b4fc

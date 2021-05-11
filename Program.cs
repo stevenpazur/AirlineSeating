@@ -5,22 +5,34 @@ namespace AirlineSeats
 {
     class Program
     {
-        public struct Seat {
-            string SeatNumber;
+        public struct Seat{
+            string seatNumber;
             SeatPosition seatPosition;
-            bool isAvailable;
+            public bool isAvailable {get;}
 
-            public Seat(string seatNum, SeatPosition seatPos, bool isAvail){
-                this.SeatNumber = seatNum;
-                this.seatPosition = seatPos;
-                this.isAvailable = isAvail;
+            public Seat(string seatNumber, SeatPosition seatPosition, bool isAvailable){
+                this.seatNumber = seatNumber;
+                this.seatPosition = seatPosition;
+                this.isAvailable = isAvailable;
             }
+
+            public string getSeat() {
+                return this.seatNumber + " - " + this.seatPosition.ToString();
+            }
+            
         }
 
-        class Plane {
+        public enum SeatPosition {
+            Aisle,
+            Middle,
+            Window,
+        }
+        
+        public class Plane {
             string TailNumber;
             string FlightNumber;
-            List<Seat> Seats;
+            
+            List<Seat> Seats = new List<Seat>();
 
             public Plane(string tailNum, string flightNum){
                 this.TailNumber = tailNum;
@@ -42,17 +54,23 @@ namespace AirlineSeats
                     }
                 }
             }
+
+            public void printAvailable() {
+                foreach (var seat in Seats) {
+                    if (seat.isAvailable) {
+                        Console.WriteLine(seat.getSeat());
+                    }  
+                }
+
+            }
+
         }
-        
-        public enum SeatPosition {
-            Aisle,
-            Middle,
-            Window,
-        }
-        
+
         static void Main(string[] args)
         {
-            
+            var plane = new Plane("1", "2");
+
+            plane.printAvailable();
         }
     }
 }
